@@ -1,5 +1,7 @@
 body {
-  /* lol */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: "Quicksand", sans-serif;
   color: rgb(196, 184, 169);
   font-size: 1em;
