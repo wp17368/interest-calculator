@@ -1,6 +1,5 @@
 body {
-  width: 100vw;
-  height: 100vh;
+  /* lol */
   font-family: "Quicksand", sans-serif;
   color: rgb(196, 184, 169);
   font-size: 1em;
@@ -38,7 +37,6 @@ select {
 .calculator-wrapper {
   margin-left: 10em;
   width: 20vw;
-  max-width: -webkit-fill-available;
   display: grid;
   gap: 1em;
   grid-template-columns: 1fr;
