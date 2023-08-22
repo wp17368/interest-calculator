@@ -118,6 +118,8 @@ button:active {
   text-shadow: 0 0 10px #cce4ff, 0 0 30px #cce4ff, 0 0 40px #cce4ff,
     0 0 50px #abd2ff, 0 0 60px #abd2ff, 0 0 70px #abd2ff, 0 0 100px #abd2ff;
 }
+input:active {
+}
 .calculate-btn-section:has(button:hover) {
   background-color: rgb(119, 123, 128);
   transition-duration: 600ms;
