@@ -21,6 +21,7 @@ input {
   border-radius: 1em;
   outline: none;
   text-align: center;
+  -webkit-appearance: none;
 }
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
