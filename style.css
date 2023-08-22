@@ -70,7 +70,8 @@ select {
   border-radius: 1em;
   border-width: 2px;
 }
-.centerB {
+/* lol */
+.center {
   position: relative;
   align-items: center;
 }
