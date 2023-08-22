@@ -11,6 +11,14 @@ body {
   background-color: rgb(198, 200, 206);
   -webkit-appearance: none;
 }
+.section {
+  display: grid;
+  align-items: center;
+  padding: 2rem 7%;
+  text-transform: none;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
 input {
   color: rgb(184, 172, 158);
   font-size: 1em;
