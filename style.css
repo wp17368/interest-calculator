@@ -9,6 +9,7 @@ body {
   color: rgb(196, 184, 169);
   font-size: 1em;
   background-color: rgb(198, 200, 206);
+  -webkit-appearance: none;
 }
 
 input {
