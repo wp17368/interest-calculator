@@ -70,7 +70,7 @@ select {
   border-radius: 1em;
   border-width: 2px;
 }
-.centerB {
+.center {
   position: relative;
   align-items: center;
 }
