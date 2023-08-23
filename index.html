@@ -2,23 +2,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"  />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"  />
     <!-- lol -->
     <title>My Website</title>
   </head>
   <link rel="stylesheet" href="style.css"></link>
+  <script src="script.js"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
   <body>
-    <section class="main">
-      <div>
-        <h1>Find out how broke you will be in x time</h1>
-        
         <div class = "calculator-wrapper">
 
           <div class="data-collection-section wrapper shadow grid">
-
             <div >
               <label for="investment">Your investment:</label>
               <input type="number" id="investment" class="shadow"/>
@@ -40,12 +36,10 @@
                 <option value="1">Month</option>
               </select>
             </div>
-
           </div>
         
-          <div class="calculate-btn-section grid shadow">
-            <div ></div>
-            <div class="center"><button id="calculate" >calculate</button></div>
+          <div class="calculate-btn-section shadow">
+            <button id="calculate" >calculate</button>
           </div>
 
           <div class="result-section grid wrapper shadow">
@@ -54,10 +48,6 @@
             <label for="totalAmount" id="time-unit">Total Amount</label>
             <input id="totalAmount" class="shadow"></input>
           </div>
-      
-
-          <script src="script.js"></script>
-      </div>
-    </section>
+        </div>
   </body>
 </html>
