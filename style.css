@@ -16,7 +16,7 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 input {
-  width: 90%;
+  width: 100%;
   padding: 10px;
   color: rgb(184, 172, 158);
   font-size: 1em;
@@ -30,6 +30,10 @@ input {
 label {
   display: block;
   width: 100%;
+  padding: 0.2em;
+}
+.padding {
+  padding: 1em;
 }
 select {
   color: rgb(196, 184, 169);
