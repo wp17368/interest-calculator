@@ -108,6 +108,7 @@ button {
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+  outline: none;
 }
 /* below are animation effects for calculate button */
 
