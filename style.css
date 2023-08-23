@@ -28,11 +28,17 @@ input {
   -webkit-appearance: none;
 }
 label {
+  padding-bottom: 0.3em;
   display: block;
   width: 100%;
-  padding: 0.2em;
 }
-.padding {
+/* the .padding-bottom makes the grid scale the height, so remove tom and bottom padding on .padding top to compensate */
+.padding-top {
+  padding: 1em;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.padding-bottom {
   padding: 1em;
 }
 select {
@@ -79,6 +85,8 @@ select {
   grid-template-rows: 1fr 1fr;
 }
 .calculate-btn-section {
+  border-radius: 2em;
+  margin: 1em;
   grid-template-columns: 1fr 1fr 1fr;
 }
 .result-section {
@@ -93,6 +101,7 @@ select {
   position: relative;
 }
 button {
+  all: unset;
   margin: 0;
   position: absolute;
   top: 50%;
