@@ -1,6 +1,6 @@
 function calcCulmulativeInterest() {
   let investment = Number(document.querySelector("#investment").value);
-  let interestRate = Number(document.querySelector("#interest-rate").value);
+  let interestRate = Number((document.querySelector("#interest-rate").value)*0.01);
   let timeUnit = Number(document.querySelector("#duration").value);
   let time = Number(document.querySelector("#time").value);
   let totalAmount = investment * interestRate * time * timeUnit;
