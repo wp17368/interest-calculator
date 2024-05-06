@@ -27,6 +27,9 @@ input {
   text-align: center;
   -webkit-appearance: none;
 }
+input::placeholder{
+  color: rgb(184, 172, 158);
+}
 label {
   padding-bottom: 0.3em;
   display: block;
